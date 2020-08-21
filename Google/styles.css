@@ -1,0 +1,92 @@
+body{
+    position:relative;
+    font-family: arial,sans-serif;
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color:black;
+}
+
+#ul1, #ul2, li{
+    font-size:13px;
+    list-style:none;
+    display: inline;
+    margin:10px;
+}
+
+#ul1{
+    float: left;
+}
+
+#ul2 {
+    float:right;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#signinbutton{
+    background-color: #4285f4;
+    border:none;
+    height:30px;
+    width:70px;
+    font-size:13px;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+img{
+    position:absolute;
+    top:22vh;
+    left:42vw;
+}
+
+#SearchBar{
+    position:absolute;
+    width:550px;
+    height:35px;
+    top:36vh;
+    left:35vw;
+    border-radius: 25px;
+}
+
+#SearchBar:hover{
+    box-shadow: 0px 0px 2px 2px gray;
+}
+
+#buttons{
+    position:absolute;
+    top:44vh;
+    left:41vw;
+}
+
+#searchbutton, #luckybutton{
+    height:35px;
+    width:135px;
+    margin:5px;
+    border:none;
+    background-color:#f2f2f2;
+    border-radius:5px;
+    font-size:13px;
+    cursor:pointer;
+    color:rgb(90, 89, 89);
+}
+
+#searchbutton:hover, #luckybutton:hover{
+    border:1px solid rgb(177, 176, 176);
+    color:black;
+    box-shadow: 0 2px 2px -2px gray;
+}
+
+#footer{
+    position:absolute;
+    height:100px;
+    background-color:red;
+    width:100vw;
+    color:red;
+}
